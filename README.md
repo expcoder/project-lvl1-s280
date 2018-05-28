@@ -1,1 +1,1 @@
-# Brain Gaimes - first Hexlet project
+# Brain Games - first Hexlet project
