@@ -1,6 +1,6 @@
 {
   "name": "pj-braingames",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "First Hexlet project - Brain Games",
   "main": "index.js",
   "bin": {
@@ -9,7 +9,8 @@
   "files": ["dist"],
   "scripts": {
     "babel-node": "babel-node",
-    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "build":
+      "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build",
     "eslint": "eslint"
   },

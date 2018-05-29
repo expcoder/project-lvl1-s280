@@ -1,5 +1,5 @@
 # Brain Games - first Hexlet project
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/74f3f10d42c31b898437/maintainability)](https://codeclimate.com/github/expcoder/project-lvl1-s280/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/74f3f10d42c31b898437/test_coverage)](https://codeclimate.com/github/expcoder/project-lvl1-s280/test_coverage)
 [![Build Status](https://travis-ci.org/expcoder/project-lvl1-s280.svg?branch=master)](https://travis-ci.org/expcoder/project-lvl1-s280)
