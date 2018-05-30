@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync';
-import { getRandomInt, isEvenNum } from './helpers';
+import getRandomInt from '../utils';
 
+const isEvenNum = num => (num % 2 === 0);
 const minRange = 1;
 const maxRange = 100;
 const numbersOfAttempts = 3;
@@ -21,12 +22,10 @@ const brainEven = () => {
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);
       console.log(`Let's try again, ${name}!`);
-      break;
+      return;
     }
   }
-  if (i === numbersOfAttempts) {
-    console.log(`Congratulations, ${name}!`);
-  }
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default brainEven;
