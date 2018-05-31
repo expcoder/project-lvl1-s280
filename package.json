@@ -1,6 +1,6 @@
 {
   "name": "pj-braingames",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "First Hexlet project - Brain Games",
   "main": "index.js",
   "bin": {

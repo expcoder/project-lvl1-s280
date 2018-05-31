@@ -1,16 +1,15 @@
 import readlineSync from 'readline-sync';
-import { sayHello } from './utils';
 
-const game = (description, data, attempts) => {
+const attempts = 3;
+
+const game = (description, gameData) => {
   console.log('Welcome to Brain Games!');
   console.log(`${description}`);
-  const name = sayHello();
-  let i = 0;
-  for (i; i < attempts; i += 1) {
-    const gameData = data();
-    const { question } = gameData;
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!\n`);
+  for (let i = 0; i < attempts; i += 1) {
+    const { question, answer } = gameData();
     console.log(`Question: ${question}`);
-    const { answer } = gameData;
     const userAnswer = readlineSync.question('Your answer: ');
     if (`${answer}` === `${userAnswer}`) {
       console.log('Correct!');

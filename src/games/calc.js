@@ -1,10 +1,9 @@
 import game from '..';
-import { getRandomInt } from '../utils';
+import getRandomInt from '../utils';
 
 const description = 'What is the result of the expression?\n';
 const minRange = 1;
 const maxRange = 10;
-const attemps = 3;
 const operators = ['+', '-', '*'];
 
 const getRundomOperator = (arrayOfOperators) => {
@@ -36,5 +35,4 @@ const gameData = () => {
   };
 };
 
-export default () =>
-  game(description, gameData, attemps);
+export default () => game(description, gameData);
