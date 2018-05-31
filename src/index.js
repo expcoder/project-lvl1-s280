@@ -12,7 +12,7 @@ const game = (description, data, attempts) => {
     console.log(`Question: ${question}`);
     const { answer } = gameData;
     const userAnswer = readlineSync.question('Your answer: ');
-    if (answer === userAnswer) {
+    if (`${answer}` === `${userAnswer}`) {
       console.log('Correct!');
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);

@@ -16,3 +16,8 @@ $ npm install -g pj-braingames
 ```sh
 $ brain-even
 ```
+### Brain calc game
+
+```sh
+$ brain-calc
+```
