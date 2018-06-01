@@ -12,12 +12,17 @@ $ npm install -g pj-braingames
 
 ## Start games
 ### Brain even game
-
+Check whether a given number is even or odd.
 ```sh
 $ brain-even
 ```
 ### Brain calc game
-
+Calculate the given expressions.
+```sh
+$ brain-calc
+```
+### Brain gcd game
+Find greater common divider.
 ```sh
 $ brain-calc
 ```
