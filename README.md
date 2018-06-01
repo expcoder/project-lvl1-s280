@@ -24,5 +24,5 @@ $ brain-calc
 ### Brain gcd game
 Find greater common divider.
 ```sh
-$ brain-calc
+$ brain-gcd
 ```
