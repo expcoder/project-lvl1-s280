@@ -26,3 +26,8 @@ Find greater common divider.
 ```sh
 $ brain-gcd
 ```
+### Brain balance game
+Balance the given number.
+```sh
+$ brain-balance
+```
