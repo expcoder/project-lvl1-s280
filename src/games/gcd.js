@@ -13,7 +13,7 @@ const gameData = () => {
   const answer = getGcd(num1, num2);
   return {
     question,
-    answer,
+    answer: `${answer}`,
   };
 };
 

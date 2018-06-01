@@ -31,7 +31,7 @@ const gameData = () => {
   }
   return {
     question,
-    answer,
+    answer: `${answer}`,
   };
 };
 

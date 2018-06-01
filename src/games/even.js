@@ -11,7 +11,7 @@ const gameData = () => {
   const answer = isEven(question) ? 'yes' : 'no';
   return {
     question,
-    answer,
+    answer: `${answer}`,
   };
 };
 
