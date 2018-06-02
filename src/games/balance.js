@@ -11,6 +11,7 @@ const getBalance = (number) => {
     return digitsArr.join('');
   }
   const mapped = digitsArr
+    .slice()
     .map((el, i) => (i === 0 ? el + 1 : el))
     .map((el, i) => (i === lastIndex ? el - 1 : el))
     .sort()
