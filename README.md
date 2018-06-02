@@ -31,3 +31,8 @@ Balance the given number.
 ```sh
 $ brain-balance
 ```
+### Brain progression game
+Find missing number in arithmetic progression.
+```sh
+$ brain-progression
+```
