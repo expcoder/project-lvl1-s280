@@ -4,16 +4,12 @@ import getRandomInt from '../utils';
 const description = 'Is this number prime?';
 const minRange = 1;
 const maxRange = 100;
-
 const isPrime = (num) => {
-  if (num % 2 === 0 || num === 1) {
-    return num === 2;
+  if (num <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(num); i += 1) {
+    if (num % i === 0) return false;
   }
-  let devider = 2;
-  while (num % devider !== 0) {
-    devider += 1;
-  }
-  return devider === num;
+  return true;
 };
 
 const gameData = () => {
