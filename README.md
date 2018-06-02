@@ -36,3 +36,8 @@ Find missing number in arithmetic progression.
 ```sh
 $ brain-progression
 ```
+### Brain prime game
+Check whether a given number is prime.
+```sh
+$ brain-prime
+```
