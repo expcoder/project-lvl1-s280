@@ -8,11 +8,14 @@ const getBalance = (number) => {
   const digitsArr = [...`${number}`].map(el => Number(el)).sort();
   const lastIndex = digitsArr.length - 1;
   if (digitsArr[lastIndex] - digitsArr[0] <= 1) {
-    return number;
+    return digitsArr.join('');
   }
-  digitsArr[0] += 1;
-  digitsArr[lastIndex] -= 1;
-  return getBalance(Number(digitsArr.join('')));
+  const mapped = digitsArr
+    .map((el, i) => (i === 0 ? el + 1 : el))
+    .map((el, i) => (i === lastIndex ? el - 1 : el))
+    .sort()
+    .join('');
+  return getBalance(Number(mapped));
 };
 
 const gameData = () => {
@@ -20,7 +23,7 @@ const gameData = () => {
   const answer = getBalance(question);
   return {
     question,
-    answer: `${answer}`,
+    answer,
   };
 };
 
