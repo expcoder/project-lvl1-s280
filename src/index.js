@@ -4,7 +4,7 @@ const attempts = 3;
 
 const game = (description, gameData) => {
   console.log('Welcome to Brain Games!');
-  console.log(`${description}`);
+  console.log(`${description}\n`);
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!\n`);
   for (let i = 0; i < attempts; i += 1) {

@@ -1,7 +1,7 @@
 import game from '..';
 import getRandomInt from '../utils';
 
-const description = 'Balance the given number.\n';
+const description = 'Balance the given number.';
 const minRange = 100;
 const maxRange = 1000;
 const getBalance = (number) => {

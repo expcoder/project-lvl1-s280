@@ -1,7 +1,7 @@
 import game from '..';
 import getRandomInt from '../utils';
 
-const description = 'Is this number prime?\n';
+const description = 'Is this number prime?';
 const minRange = 1;
 const maxRange = 100;
 

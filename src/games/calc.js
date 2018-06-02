@@ -1,7 +1,7 @@
 import game from '..';
 import getRandomInt from '../utils';
 
-const description = 'What is the result of the expression?\n';
+const description = 'What is the result of the expression?';
 const minRange = 1;
 const maxRange = 10;
 const operators = ['+', '-', '*'];

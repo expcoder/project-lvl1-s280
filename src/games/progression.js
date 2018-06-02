@@ -1,7 +1,7 @@
 import game from '..';
 import getRandomInt from '../utils';
 
-const description = 'What number is missing in this progression?\n';
+const description = 'What number is missing in this progression?';
 const minRange = 1;
 const maxRange = 10;
 const length = 10;
