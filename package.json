@@ -1,6 +1,6 @@
 {
   "name": "pj-braingames",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "First Hexlet project - Brain Games",
   "main": "index.js",
   "bin": {
@@ -19,8 +19,9 @@
     "prepublishOnly": "npm run build",
     "eslint": "eslint"
   },
-  "author": "",
+  "author": "Ruslan Expcoder",
   "license": "ISC",
+  "homepage": "https://github.com/expcoder/brain-games",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
