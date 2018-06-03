@@ -6,7 +6,8 @@ const minRange = 1;
 const maxRange = 100;
 const isPrime = (num) => {
   if (num <= 1) return false;
-  for (let i = 2; i <= Math.sqrt(num); i += 1) {
+  const numSqrt = Math.sqrt(num);
+  for (let i = 2; i <= numSqrt; i += 1) {
     if (num % i === 0) return false;
   }
   return true;
@@ -17,7 +18,7 @@ const gameData = () => {
   const answer = isPrime(question) ? 'yes' : 'no';
   return {
     question,
-    answer: `${answer}`,
+    answer,
   };
 };
 
