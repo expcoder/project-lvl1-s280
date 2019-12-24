@@ -5,7 +5,7 @@ const description = 'Balance the given number.';
 const minRange = 100;
 const maxRange = 1000;
 const getBalance = (number) => {
-  const digitsArr = [...`${number}`].map(el => Number(el)).sort();
+  const digitsArr = [...`${number}`].map((el) => Number(el)).sort();
   const lastIndex = digitsArr.length - 1;
   if (digitsArr[lastIndex] - digitsArr[0] <= 1) {
     return digitsArr.join('');
